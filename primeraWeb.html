@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+	   <!--Especificamos que nuestra p�gina web estar� en castellano-->
+<html lang="es">
+ <head>
+	<!--especifica c�mo ser� presentado el texto de la p�gina web
+	  en pantalla -->
+	<meta charset="iso-8559-1"/>
+	<!-- Los buscadores categorizan la p�gina web, en content describiremos
+            de que va nuestra p�gina web-->
+	<meta name="description" content="P�gina de ense�anza html5"/>
+	<meta name="keywords" content="html5, css3, JavaScript, dise�o web"/>
+	<!-- los buscadores tienen m�s en cuenta el title que el meta keywords -->
+	<title>prueba2</title>
+	<link rel="stylesheet" href="mihojadeestilos.css/">
+ </head>
+ <body>
+	<header> <!-- es una etiqueta que nos permite que nuestra p�gina sea compatible con todos los 
+		dispositivos que hay en el mercado -->
+		<!-- las etiquetas h son utilizados tambi�n para categorizar y posicionar nuestra p�gina en 
+		los resultados -->
+		<h1>Este sera el titulo de nuestra web creada por enrique</h1>
+	</header>
+    <nav><!-- etiqueta que hace que sea compatible con todos los dispositivos -->
+		<ul>
+			<li>Qui�nes somos</li>
+			<li>nuestros productos</li>
+			<li>cont�ctanos</li>
+			<li>Precios</li>
+		</ul>
+	</nav>	
+	<aside> 
+		<blockquote> Primer elemento</blockquote>
+		<blockquote> segundo elemento</blockquote>
+		<blockquote> tercer elemento</blockquote>
+	</aside>
+	<section>
+		<article>
+			<header>
+                <hgroup> <! -- sirve para agrupar titulos y subt�tulos-->
+				<h2>T�tulo de la noticia 1</h2>
+				<h3>subt�tulo de la noticia1</h3>
+                </hgroup>    
+			</header>
+			<figure>
+				<img src="imagenes/paisaje.jpg"/>
+				<figcaption>
+					<mark> diseño tatto paisaje</mark>
+				</figcaption>
+			</figure>
+			<p><strong>noticia 1</strong> </p>
+			<p><em>seguimos hablando de la notica 1</em> </p>
+			<p>terminamos de hablar de la noticia 1</p>
+			<footer>
+				<p>comentarios de usuarios</p>
+			</footer>
+		</article>
+		
+		<article> <!-- agrupa contenidos similares -->
+            <header>
+                <h2>T�tulo de la noticia 2</h2>
+            </header>
+			<p><cite>lo que el viento se llevo</cite> </p>
+			<p>una de las peliculas mas largas en la historia
+				del cine es <cite>lo que el viento se llevo</cite>
+			</p>
+			<p>terminamos de hablar de la noticia 2</p>
+            <footer>
+                <p>comentarios de usuarios</p>
+            </footer>
+		</article>
+		
+		<article>
+            <hgroup>
+            <h2>T�tulo de la noticia 3</h2>
+            <h3>subt�tulo de la noticia3</h3>
+			</hgroup>
+			<time datetime="2019/08/16" pubdate>Noticia publicada
+			el dia 16/08/2019</time>
+			<p>noticia 3 </p>
+			<p>seguimos hablando de la notica 3</p>
+			<p>terminamos de hablar de la noticia 3</p>
+            <footer>
+                <p>comentarios de usuarios</p>
+            </footer>
+		</article>
+		
+	</section>
+	<footer>
+		<small>Derechos reservados<address>TFno:956456789
+		</address></small>
+	</footer>
+ </body>	
+<html>
