@@ -1,3 +1,26 @@
-body{
-    background-color: blue;
+li{
+    background-color: yellow;
+    display: inline;
+}
+#cabezera{
+    background-color: cadetblue;
+}
+#navegacionprincipal{
+background-color: green;
+}
+#barralateral{
+    background-color: salmon;
+    float: left;
+    height: 1204px;
+}
+#contenidoprincipal{
+    background-color: blueviolet;
+    padding-top: 3px;
+
+}
+#pieprincipal{
+    clear: both;  
+    background-color: chartreuse;
+    margin-top: 63px;
+    padding-left: 15px;
 }
