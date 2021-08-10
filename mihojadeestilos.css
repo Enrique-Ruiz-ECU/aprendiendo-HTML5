@@ -1,7 +1,30 @@
+body{
+    background-color: black;
+}
+h1{
+    font-style: normal;
+    font-family: serif;
+    background-image:linear-gradient(red,yellow);
+    border-radius:10px;
+    width: 650px;
+    margin: 15px auto;
+    text-align: center;
+    padding: 15px;
+}
 li{
     background-color: yellow;
     display: inline;
 }
+figure img{
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+}
+figure img:hover{    
+    transform: scale(1.2);
+}
+
+
 #cabezera{
     background-color: cadetblue;
 }
