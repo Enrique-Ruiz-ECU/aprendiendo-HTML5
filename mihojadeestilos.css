@@ -42,6 +42,8 @@ background-color: green;
     height: 1204px;
 }
 #pieprincipal{
+    font-size: 8pt;
+    text-align: right;
     clear: both;  
     background-color: chartreuse;
     margin-top: 63px;
